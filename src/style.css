@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "7seg";
+  src: url("./DSEG7Classic-Regular.ttf");
+}
+
+body {
+  background: #000000;
+  user-select: none;
+  cursor: default;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  color: blue;
+  text-shadow: 0 0 0.1em blue;
+  font-family: '7seg';
+  font-size: 14vw;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "minimal-fullscreen-clock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitlab.com/simochee/minimal-fullscreen-clock.git",
+  "author": "simochee <simochee@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.html -d public --public-url ./"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.6.2"
+  }
+}
