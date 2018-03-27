@@ -290,7 +290,7 @@ function getBaseURL(url) {
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 
-},{}],25:[function(require,module,exports) {
+},{}],26:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -370,6 +370,6 @@ LazyPromise.prototype.catch = function (onError) {
 };
 
 },{"./bundle-url":14}],0:[function(require,module,exports) {
-var b=require(25);b.load([["ff097486a0982c76626fc29a71fc8ea1.ttf",19]]);
+var b=require(26);b.load([["ff097486a0982c76626fc29a71fc8ea1.ttf",19]]);
 },{}]},{},[23,0])
 //# sourceMappingURL=/dist/d81bbddc22a226b0fc9c0f370bda22d9.map

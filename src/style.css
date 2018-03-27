@@ -21,8 +21,8 @@ body {
 }
 
 .clock {
-  color: blue;
-  text-shadow: 0 0 0.1em blue;
+  color: red;
+  text-shadow: 0 0 0.1em red;
   font-family: '7seg';
   font-size: 14vw;
 }
