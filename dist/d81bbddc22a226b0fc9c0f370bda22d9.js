@@ -138,7 +138,7 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./DSEG7Classic-Regular.ttf":19,"_css_loader":12}],23:[function(require,module,exports) {
+},{"./DSEG7Classic-Regular.ttf":19,"_css_loader":12}],27:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -290,7 +290,7 @@ function getBaseURL(url) {
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 
-},{}],26:[function(require,module,exports) {
+},{}],28:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -370,6 +370,6 @@ LazyPromise.prototype.catch = function (onError) {
 };
 
 },{"./bundle-url":14}],0:[function(require,module,exports) {
-var b=require(26);b.load([["ff097486a0982c76626fc29a71fc8ea1.ttf",19]]);
-},{}]},{},[23,0])
+var b=require(28);b.load([["ff097486a0982c76626fc29a71fc8ea1.ttf",19]]);
+},{}]},{},[27,0])
 //# sourceMappingURL=/dist/d81bbddc22a226b0fc9c0f370bda22d9.map
